@@ -1,6 +1,6 @@
-namespace Azure.Cosmos.CosmicWorks.Generator;
+namespace CosmicWorks.Generator;
 
 public record Tag(
-    string Id,
-    string Name
+    string id,
+    string name
 );

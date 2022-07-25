@@ -1,16 +1,16 @@
-﻿namespace Azure.Cosmos.CosmicWorks.Generator;
+﻿namespace CosmicWorks.Generator;
 
 public record Product(
-    string Id,
-    string CategoryId,
-    string CategoryName,
-    string SKU,
-    string Name,
-    string Description,
-    double Price,
-    IReadOnlyList<Tag> Tags
+    string id,
+    string categoryId,
+    string categoryName,
+    string sku,
+    string name,
+    string description,
+    double price,
+    IReadOnlyList<Tag> tags
 )
 {
     public override string ToString() =>
-        $"{Id,-40}{Name,-35}{CategoryName,30}";
+        $"{id,-40}{name,-35}{categoryName,30}";
 };

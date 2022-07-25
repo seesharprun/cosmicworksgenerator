@@ -1,7 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
+  <PropertyGroup>  
+    <AssemblyName>cosmicworks</AssemblyName>
+    <RootNamespace>CosmicWorks.Generator</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>enable</Nullable>    
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageOutputPath>./pkg</PackageOutputPath>
+    <PackageId>CosmicWorks.Generator</PackageId>
+    <Authors>Sidney Andrews</Authors>
+    <Company>Microsoft</Company>
+    <PackageTags>Azure;Cosmos;DocumentDb</PackageTags>
+    <Description>
+      Library to generate fictious data for Azure Cosmos DB SQL API.
+    </Description>
+    <ProjectUrl>https://github.com/seesharprun/cosmicworksgenerator</ProjectUrl>
+    <RepositoryUrl>https://github.com/seesharprun/cosmicworksgenerator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 </Project>

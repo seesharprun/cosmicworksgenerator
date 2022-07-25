@@ -1,4 +1,4 @@
-namespace Azure.Cosmos.CosmicWorks.Generator;
+namespace CosmicWorks.Generator;
 
 public static class ProductsFactory
 {
